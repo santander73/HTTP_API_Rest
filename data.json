@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "nombre": "Excavadora Caterpillar 320",
+        "tipo": "Excavadora",
+        "marca": "Caterpillar",
+        "estado": "Disponible",
+        "horas": 1500
+    },
+    {
+        "id": 2,
+        "nombre": "Cargador Frontal Hyundai HL760",
+        "tipo": "Cargador Frontal",
+        "marca": "Hyundai",
+        "estado": "En Mantención",
+        "horas": 2800
+    },
+    {
+        "id": 3,
+        "nombre": "Rodillo Compactador Case 1107EX",
+        "tipo": "Compactador",
+        "marca": "Case",
+        "estado": "Disponible",
+        "horas": 950
+    },
+    {
+        "id": 4,
+        "nombre": "Excavadora Hyundai HX220",
+        "tipo": "Excavadora",
+        "marca": "Hyundai",
+        "estado": "Disponible",
+        "horas": 1100
+    },
+    {
+        "id": 5,
+        "nombre": "Cargador Frontal Caterpillar 938M",
+        "tipo": "Cargador Frontal",
+        "marca": "Caterpillar",
+        "estado": "En Terreno",
+        "horas": 3200
+    }
+]
