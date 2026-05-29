@@ -34,7 +34,7 @@ const guardarDatos = (datos) => {
     }
 };
 
-// ==================== RUTAS API REST (AE-6) ====================
+// ==================== RUTAS API REST ====================
 
 // 1. GET: Obtener todas las maquinarias
 app.get('/maquinarias', (req, res) => {
