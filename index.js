@@ -39,6 +39,7 @@ const guardarDatos = (datos) => {
 // 1. GET: Obtener todas las maquinarias
 app.get('/maquinarias', (req, res) => {
     try {
+        throw new Error("Fallo simulado en el servidor");
         const maquinarias = leerDatos();
         return res.status(200).json(maquinarias);
     } catch (error) {
@@ -50,6 +51,9 @@ app.get('/maquinarias', (req, res) => {
 // 2. GET: Obtener una maquinaria por ID
 app.get('/maquinarias/:id', (req, res) => {
     try {
+        // LINEA PARA FORZAR ERROR 500:
+        //throw new Error("Fallo simulado al buscar por ID");
+
         const maquinarias = leerDatos();
         const id = parseInt(req.params.id);
         const maquinaria = maquinarias.find(m => m.id === id);
